@@ -4,8 +4,37 @@ padding-top: 3%;
 padding-bottom: 3%;
 
 }
-
-
+/* Estilos para los botones de tamaño */
+#tamaño button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    margin-right: 10px;
+    cursor: pointer; 
+  }
+  
+  /* Estilos para los botones de color */
+  #color button {
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    margin-right: 10px; 
+    cursor: pointer; 
+  }
+   #verde{
+    background-color: green; 
+  }
+  #rojo{
+    background-color: red; 
+  }
+  #negro{
+    background-color: black; 
+  }
+  /* Estilo cuando se pasa el mouse por encima de los botones */
+  button:hover {
+    opacity: 0.8; 
+  }
 
 /* TAMAÑO LETRA */
 .grande {
