@@ -7,7 +7,7 @@ function generarParrafos(cantidad) {
         // Crea un elemento de párrafo y establece su contenido
         var parrafo = document.createElement("p");
         parrafo.textContent = "Párrafo " + i;
-        parrafo.id="parrafo" +i;
+        parrafo.id = "parrafo" + i;
 
         // Agrega el párrafo al contenedor
         contenedor.appendChild(parrafo);
@@ -16,14 +16,14 @@ function generarParrafos(cantidad) {
         var option = document.createElement("option");
         option.value = i;
         option.text = "Párrafo " + i;
-
+        console.log(parrafo)
         // Agrega la opción al select
         select.appendChild(option);
     }
 
     // Agrega el select al contenedor
     contenedor.appendChild(select);
-    select.id ="select-parrafo";
+    select.id = "select-parrafo";
     console.log(select);
 
     // Agrega un evento para manejar la selección
