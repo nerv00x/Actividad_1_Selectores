@@ -46,6 +46,6 @@ function mostrarParrafoSeleccionado() {
     }
 }
 
-// Llama a la función para generar 5 párrafos y la lista desplegable
-generarParrafos(5);
+// Llama a la función para generara párrafos y la lista desplegable
+generarParrafos(9);
 

@@ -1,19 +1,40 @@
-.grande{
-font-size: xx-large;
 
-}
-
-.pequeno{
-
-font-size: smaller;
-
+#tamaño{
+padding-top: 3%;
+padding-bottom: 3%;
 
 }
 
 
 
-.normal{
+/* TAMAÑO LETRA */
+.grande {
+    font-size: xx-large;
+}
 
-font-size: medium;
-    
+.pequeno {
+    font-size: smaller;
+}
+
+
+
+.normal {
+    font-size: medium;
+}
+
+
+/* COLORES */
+.verde {
+    color: green;
+}
+
+
+.rojo {
+
+    color: red;
+}
+
+
+.negro {
+    color: black;
 }

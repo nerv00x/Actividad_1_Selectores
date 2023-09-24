@@ -13,3 +13,16 @@ function CambiarTamaño(valor) {
         parrafo.setAttribute("class", "pequeno")
 }
 }
+
+function CambiarColor(valor) {
+    let selector = document.querySelector("#select-parrafo");
+    let parrafo = document.querySelector(`#parrafo${selector.value}`)
+    console.log(parrafo)
+    if(valor == "verde"){
+        parrafo.setAttribute("class", "verde")
+    }else if(valor == "rojo"){
+        parrafo.setAttribute("class", "rojo")
+    }else {
+        parrafo.setAttribute("class", "negro")
+}
+}
