@@ -1,40 +1,86 @@
+body {
+    background-color: #DEB887;
+}
 
-#tamaño{
-padding-top: 3%;
-padding-bottom: 3%;
+h1{
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
 
 }
+
+
+/* Estilos para el contenedor de los párrafos */
+#contenedor {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+#tamaño {
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+#botones-container {
+
+
+    margin-left: 35%;
+
+
+
+}
+
 /* Estilos para los botones de tamaño */
 #tamaño button {
-    background-color: #007bff; /* Color de fondo azul */
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
     margin-right: 10px;
-    cursor: pointer; 
-  }
-  
-  /* Estilos para los botones de color */
-  #color button {
-    color: #fff; 
-    padding: 10px 20px; 
-    border: none; 
-    margin-right: 10px; 
-    cursor: pointer; 
-  }
-   #verde{
-    background-color: green; 
-  }
-  #rojo{
-    background-color: red; 
-  }
-  #negro{
-    background-color: black; 
-  }
-  /* Estilo cuando se pasa el mouse por encima de los botones */
-  button:hover {
-    opacity: 0.8; 
-  }
+    cursor: pointer;
+}
+
+/* Estilos para los botones de color */
+#color button {
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#verde {
+    background-color: green;
+    padding: 10px 30px;
+}
+
+#rojo {
+    background-color: red;
+    padding: 10px 30px;
+}
+
+#negro {
+    background-color: black;
+    padding: 10px 24px;
+}
+
+/* Estilo cuando se pasa el mouse por encima de los botones */
+button:hover {
+    opacity: 0.8;
+}
 
 /* TAMAÑO LETRA */
 .grande {
@@ -67,3 +113,18 @@ padding-bottom: 3%;
 .negro {
     color: black;
 }
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed; /* Fija el footer en la parte inferior de la ventana */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Ancho completo del footer */
+  }
+
+  #curso{
+    margin-left: 70%;
+  }

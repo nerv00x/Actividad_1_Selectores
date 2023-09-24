@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
    <meta charset="UTF-8">
    <title>Cambiando el tamaño del texto</title>
 </head>
+
 <body>
+   <h1>Actividad 1. Trabaja con selectores</h1>
    <div id="contenedor"></div>
 
-<div id="tamaño">
-   <button type="submit" value="grande" onclick="CambiarTamaño(this.value);">Agrandar</button>
-   <button type="submit" value="pequeno" onclick="CambiarTamaño(this.value);">Reducir</button>
-   <button type="submit" value="normal" onclick="CambiarTamaño(this.value);">Original</button>
+ <div id="botones-container">
+   <div id="tamaño">
+      <button type="submit" value="grande" onclick="CambiarTamaño(this.value);">Agrandar</button>
+      <button type="submit" value="pequeno" onclick="CambiarTamaño(this.value);">Reducir</button>
+      <button type="submit" value="normal" onclick="CambiarTamaño(this.value);">Original</button>
+   </div>
+
+   <div id="color">
+      <button id="verde" type="submit" value="verde" onclick="CambiarColor(this.value);">Verde</button>
+      <button id="rojo" type="submit" value="rojo" onclick="CambiarColor(this.value);">Rojo</button>
+      <button id="negro" type="submit" value="negro" onclick="CambiarColor(this.value);">Negro</button>
+   </div>
 </div>
-   
-<div id="color">
-   <button id="verde" type="submit" value="verde" onclick="CambiarColor(this.value);">Verde</button>
-   <button id="rojo" type="submit" value="rojo" onclick="CambiarColor(this.value);">Rojo</button>
-   <button id="negro" type="submit" value="negro" onclick="CambiarColor(this.value);">Negro</button>
-</div>
 
+<footer>
+<span id="nombre">Aridane Cabrera Ramirez</span>
+<span id="curso">DEW</span>
+</footer>
 
-<script src="./js/changeSize.js"></script>
-<script src="./js/parrafo.js"></script>
+   <script src="./js/changeSize.js"></script>
+   <script src="./js/parrafo.js"></script>
 
-<link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/style.css">
 
 </body>
+
 </html>
