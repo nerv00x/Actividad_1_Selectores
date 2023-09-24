@@ -19,10 +19,16 @@ function CambiarColor(valor) {
     let parrafo = document.querySelector(`#parrafo${selector.value}`)
     console.log(parrafo)
     if(valor == "verde"){
+        parrafo.classList.remove("rojo")
+        parrafo.classList.remove("negro")
         parrafo.classList.add("verde")
     }else if(valor == "rojo"){
+        parrafo.classList.remove("verde")
+        parrafo.classList.remove("negro")
         parrafo.classList.add( "rojo")
     }else {
+        parrafo.classList.remove("rojo")
+        parrafo.classList.remove("verde")
         parrafo.classList.add("negro")
 }
 }
